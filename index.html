@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> 
+
+    <title>My Paint</title>
+</head>
+<body>
+    
+    <h1 class="titreh">My Paint
+        </h1>
+        <div class="block">
+        <button id="pinceau">Pinceau</button>
+        <button id="ligne">Trait</button>
+        <button id="gomme">Gomme</button>
+        <button id="rectangle">Rectangle</button>
+        <button id="rectanglerempli">Rectangle avec remplissage</button>
+        <button id="save">Enregistrer dessin</button>
+        <button id="clear">Clear</button>
+
+        <input type="color" value="#000000" id="color">
+        <input type="range" min="1" max="50" id="size">
+        </div>
+        <br>
+        <canvas id="draw" style="border:1px solid #000000;" width="1250" height="700"></canvas>
+    <script src="draw.js"></script>
+</body>
+</html>
