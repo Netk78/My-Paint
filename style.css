@@ -1,0 +1,27 @@
+html{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+        ),url(http://iwallpapers2.free.fr/images/Abstract/Peinture_doigt_1600x900.jpg);
+        background-size:cover;
+        padding: 0;
+        margin: 0;
+}
+.titreh{
+    font-family: 'Great Vibes', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+    color: white;
+    
+}
+#draw{
+    margin-left: 15%;
+    margin-right: 15%;
+
+    cursor :Crosshair;
+    background-color: white;
+}
+.block{
+    margin-left: 18%;
+}
